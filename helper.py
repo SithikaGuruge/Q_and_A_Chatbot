@@ -26,7 +26,7 @@ def document_loader(file_path):
     return data
 
 
-def getAnswerFromLLM(data, query):
+def getAnswerUsingLLM(data, query):
 
     load_dotenv()
 

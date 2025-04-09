@@ -1,4 +1,4 @@
-from helper import document_loader, getAnswerFromLLM
+from helper import document_loader, getAnswerUsingLLM
 import streamlit as st
 
 st.set_page_config(page_title="FAQ Chatbot", page_icon=":robot:")
@@ -21,7 +21,7 @@ try:
         if btn:
             if query:
                 with st.spinner("Getting answer..."):
-                    answer = getAnswerFromLLM(data, query)
+                    answer = getAnswerUsingLLM(data, query)
                     st.write(answer)
             else:
                 st.warning("Please enter a question.")
