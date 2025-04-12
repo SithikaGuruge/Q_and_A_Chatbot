@@ -32,3 +32,6 @@ You can then ask:
 > *“What should I do if I forgot my login credentials?”*
 
 And the bot will answer based on the relevant data.
+
+[Read my Medium article for more information](https://medium.com/@sithikaguruge2001/building-an-faq-chatbot-with-langchain-google-palm-llm-faiss-streamlit-3bdc8e16a4f6)
+
